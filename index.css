@@ -1,36 +1,39 @@
 body {
+    background-image: url("../flower.jpg");
+    padding: 20px 40px;
+    margin: auto;
+    font-display: auto;
+    font-family:  'Palatino Linotype';
+    color:lightsteelblue;
 }
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    font-weight: bold;
-    color: khaki;
-    background-image: url("../pattern.jpeg");
+.goals {
+    background-color: floralwhite;
+    margin: 5px;
+    padding: 20px;
+    display: inline-block;
+    border: double blue;
+}
+
+.container {
     text-align: center;
 }
-.brush {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-    background-color: mediumspringgreen
+    h1 {
+    font-family: 'Palatino Linotype';
+    color: pink;
+    background-color: floralwhite;
+    display: inline-flex; 
+    padding: 7px;
+    border: solid salmon;
+   
 }
-.frame {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-    background-color: lightcoral;
-}
-.paint {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-    background-color: skyblue;
-}
-.starting {
-    font-weight: bold;
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+
+p {
+    font-family: 'Palatino Linotype';
+    color: slateblue;
+    font-size: 18px;
+    border: solid pink;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    
 }
